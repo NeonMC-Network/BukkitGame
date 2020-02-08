@@ -1,0 +1,10 @@
+me\naptie\bukkit\game\Messages.class
+me\naptie\bukkit\game\tools\MySQL.class
+me\naptie\bukkit\game\utils\CU.class
+me\naptie\bukkit\game\utils\ServerManager$GameType.class
+me\naptie\bukkit\game\tools\MySQL$Editor.class
+me\naptie\bukkit\game\utils\MySQLManager.class
+me\naptie\bukkit\game\commands\Play.class
+me\naptie\bukkit\game\commands\Leave.class
+me\naptie\bukkit\game\utils\ServerManager.class
+me\naptie\bukkit\game\Main.class

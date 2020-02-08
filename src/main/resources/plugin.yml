@@ -1,0 +1,14 @@
+main: me.naptie.bukkit.game.Main
+name: NeonBukkitGame
+version: 2.0.0
+api-version: "1.15"
+author: Naptie
+commands:
+  play:
+    description: To join a game.
+    usage: /play [game] [type]
+    aliases: [game, playgame, joingame]
+  leave:
+    description: To leave from a game.
+    usage: /leave
+    aliases: [quit, joinlobby]

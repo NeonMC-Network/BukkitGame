@@ -1,0 +1,53 @@
+languages:
+  - en-GB
+  - en-US
+  - zh-CN
+update-language-files: true
+
+mysql:
+  enable: true
+  debug: false
+  username: username
+  password: password
+  address: localhost:3306
+  database: neonmc
+  timezone: CST
+  useSSL: false
+
+games:
+  skywars:
+    lobbies:
+      - skywars01
+      - skywars02
+    minis:
+      mini01:
+        display-name: Agai
+        max-players: 4
+        min-players: 2
+        players-per-team: 1
+        insane-mode: false
+        team-mode: false
+      mini02:
+        display-name: Coherence
+        max-players: 8
+        min-players: 2
+        players-per-team: 2
+        insane-mode: true
+        team-mode: true
+  bedwars:
+    lobbies:
+      - bedwars01
+      - bedwars02
+    minis:
+      mini03:
+        display-name: Treenan
+        max-players: 4
+        min-players: 2
+        players-per-team: 1
+        team-mode: false
+      mini05:
+        display-name: Coherence
+        max-players: 8
+        min-players: 2
+        players-per-team: 2
+        team-mode: true
